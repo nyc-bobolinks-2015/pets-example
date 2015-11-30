@@ -10,4 +10,5 @@ Cat.create!(name:'Tabby', breed:'tortoiseshell', age:4, nickname:'Pudden')
 Cat.create!(name:'KittenBobba', breed:'persian', age:3, nickname:'SnaggleCheeks')
 Cat.create!(name:'Bob', breed:'siamese', age:2, nickname:'puss')
 
+User.create!(username:'steven', email:'steven@example.com', password:'sc123456')
 
