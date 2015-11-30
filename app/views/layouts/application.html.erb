@@ -7,7 +7,13 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div>
+<% if current_user %>
+  Welcome <%= current_user.username %>
+<% else %>
+   You are not logged in
+<% end %>
+</div>
 <%= yield %>
 
 </body>
