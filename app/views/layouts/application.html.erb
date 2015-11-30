@@ -8,6 +8,13 @@
 </head>
 <body>
 <div>
+<% flash.each do |k, v| %>
+  <div class="flash-<%= k %>">
+    <%= v %>
+  </div>
+<% end %>
+
+
 <% if current_user %>
   Welcome <%= current_user.username %>
 <% else %>
